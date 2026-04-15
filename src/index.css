@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Background colors */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f9fafb;
+  --bg-tertiary: #f3f4f6;
+  --bg-card: #ffffff;
+  --bg-card-selected: #eff6ff;
+  --bg-badge-react: #61dafb22;
+  --bg-badge-vue: #42b88322;
+  --bg-badge-angular: #dd003122;
+  --bg-success: #dcfce7;
+  --bg-info: #eff6ff;
+  --bg-warning: #fef2f2;
+  --bg-input: #ffffff;
+
+  /* Text colors */
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  --text-link: #2563eb;
+  --text-accent-blue: #0ea5e9;
+  --text-accent-green: #16a34a;
+  --text-accent-red: #dc2626;
+  --text-badge-blue: #2563eb;
+  --text-success: #16a34a;
+
+  /* Border colors */
+  --border-primary: #e5e7eb;
+  --border-secondary: #d1d5db;
+  --border-selected: #3b82f6;
+  --border-info: #bfdbfe;
+  --border-success: #bbf7d0;
+  --border-warning: #fecaca;
+
+  /* Nav */
+  --nav-bg: #ffffff;
+  --nav-border: #e5e7eb;
+
+  /* Toggle */
+  --toggle-on: #22c55e;
+  --toggle-off: #d1d5db;
+}
+
+[data-theme='dark'] {
+  --bg-primary: #111827;
+  --bg-secondary: #1f2937;
+  --bg-tertiary: #374151;
+  --bg-card: #1f2937;
+  --bg-card-selected: #1e3a5f;
+  --bg-badge-react: #61dafb33;
+  --bg-badge-vue: #42b88333;
+  --bg-badge-angular: #dd003133;
+  --bg-success: #052e16;
+  --bg-info: #172554;
+  --bg-warning: #450a0a;
+  --bg-input: #374151;
+
+  --text-primary: #f9fafb;
+  --text-secondary: #d1d5db;
+  --text-muted: #6b7280;
+  --text-link: #60a5fa;
+  --text-accent-blue: #38bdf8;
+  --text-accent-green: #4ade80;
+  --text-accent-red: #f87171;
+  --text-badge-blue: #60a5fa;
+  --text-success: #4ade80;
+
+  --border-primary: #374151;
+  --border-secondary: #4b5563;
+  --border-selected: #3b82f6;
+  --border-info: #1e3a5f;
+  --border-success: #166534;
+  --border-warning: #7f1d1d;
+
+  --nav-bg: #1f2937;
+  --nav-border: #374151;
+
+  --toggle-on: #22c55e;
+  --toggle-off: #4b5563;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--text-primary);
+  background: var(--bg-secondary);
+}
+
+a {
+  color: var(--text-link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
