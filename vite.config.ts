@@ -42,8 +42,8 @@ export default defineConfig({
         './EventBusTypes': './src/shared/event-bus-types',
       },
       shared: {
-        react: { singleton: true, requiredVersion: '^19.1.0' },
-        'react-dom': { singleton: true, requiredVersion: '^19.1.0' },
+        react: { singleton: true, requiredVersion: '^19.1.0', eager: true },
+        'react-dom': { singleton: true, requiredVersion: '^19.1.0', eager: true },
         zustand: { singleton: true, requiredVersion: '^5.0.0' },
       },
     }),
